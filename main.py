@@ -1,0 +1,11 @@
+
+import tkinter
+
+window = tkinter.Tk()
+window.title("BMI Calculator")
+window.minsize(width=300,height=400)
+window.config(padx=20,pady=20)
+
+# button
+button = tkinter.Button(text="Calculator")
+button.pack()
